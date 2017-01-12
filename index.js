@@ -7,7 +7,7 @@ module.exports =  function(userConfig){
 
   userConfig.plugins = [new CopyWebpackPlugin([{
     from: path.resolve('./src/statics/**/*.*'),
-    to: path.resolve('./www/')
+    to: path.resolve('./')
   }
   ])]
 
